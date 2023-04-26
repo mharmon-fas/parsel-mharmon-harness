@@ -11,7 +11,7 @@ with open("NEWS", encoding="utf-8") as history_file:
 
 setup(
     name="parsel",
-    version="1.7.0",
+    version="1.8.1",
     description="Parsel is a library to extract data from HTML and XML using XPath and CSS selectors",
     long_description=readme + "\n\n" + history,
     author="Scrapy project",
@@ -26,8 +26,10 @@ setup(
     include_package_data=True,
     install_requires=[
         "cssselect>=0.9",
+        "jmespath",
         "lxml",
         "packaging",
+        "typing_extensions; python_version < '3.8'",
         "w3lib>=1.19.0",
     ],
     python_requires=">=3.7",
