@@ -2,7 +2,7 @@ project: parsel-mharmon-harness
 target: fuzz-extract
 
 testsuite:
-    - file://mayhem/testsuite
+    - file://src/mayhem/testsuite
 
 cmds:
   - cmd: /src/mayhem/fuzz_extract.py
