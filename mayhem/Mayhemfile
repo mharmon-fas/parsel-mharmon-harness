@@ -1,5 +1,5 @@
 project: parsel-mharmon-harness
-target: fuzz-extract
+target: parsel-fuzz
 
 testsuite:
     - file://src/mayhem/testsuite
