@@ -6,3 +6,5 @@ testsuite:
 
 cmds:
   - cmd: /src/mayhem/fuzz_extract.py
+    libfuzzer: true
+    timeout: 12
